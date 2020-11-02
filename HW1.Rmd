@@ -90,7 +90,7 @@ The median arrival delay for all airports and airlines in January 2013 was `r me
 
 Based on your answers to the two questions above, what can you say about the distribution of arrival delays? Provide your answer in a text paragraph form.
 
-With an average of 6.129972 and median of -3, the distribution of arrival delays is positively skewed. This could mean that most flights arrive around 3 minutes early, with late flights arriving very late - late enough to pull the mean up to 6.895. 
+With an average of 6.129972 and median of -3, the distribution of arrival delays is positively skewed. This could mean that most flights arrive around 3 minutes early, with late flights arriving very late - late enough to pull the mean up to 6.129972. 
 
 
 ### Airline Performance
@@ -146,7 +146,7 @@ Yes. On average, airlines gain approximately 5.7 minutes in the air.
 tapply(nyc$airgain, nyc$carrier, mean, na.rm = TRUE)
 ```
 
-Average airgain for the different airlines is shown above in part (a). The airlines that do the worst with airgain are 9E, HA, and VX, gaining between 9 and 11 minutes of flight time while in the air. Airlines F9, FL, and MQ do the best with airgain, with their flight times being trimmed while in the air.
+Average airgain for the different airlines is shown above in part (a). The airlines that do the worst with airgain are AS, HA, and VX, gaining between 9 and 11 minutes of flight time while in the air. Airlines F9, FL, and MQ do the best with airgain, with their flight times being trimmed while in the air.
 
   - Build a graphic  of average airgain for different airlines sorted by airgain. We want to graphically visualize which airlines are good at "catching up" when in air and which airlines actually lose time further after taking off.
   
